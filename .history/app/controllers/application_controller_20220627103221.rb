@@ -19,7 +19,6 @@ set :default_content_type, 'application/json'
   end
 
   get '/baked_goods/most_expensive' do
-    baked_goods = BakedGood.most_expensive
-    baked_goods.to_json
+    baked_goods = BakedGood.
   end
 end

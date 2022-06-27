@@ -6,7 +6,6 @@ class BakedGood < ActiveRecord::Base
   end
 
   def self.most_expensive
-    self.all.order(price: :desc).first
+    self.o
   end
-
 end
